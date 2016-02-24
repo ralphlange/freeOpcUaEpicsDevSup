@@ -1,0 +1,30 @@
+record(ai,"REC:rdPEW272REAL"){
+        field(TPRO,"4")
+#        field(SCAN,".2 second")
+        field(TSE, "-2")
+        field(SCAN,"I/O Intr")
+        field(DTYP,"OPCUA")
+        field(DISS,"INVALID")
+        field(INP,"@2:DeviceSet.4:TEST.Resources.PLC.Programs.DB_RD.rdPEW272REAL")
+}
+record(ai,"REC:rdCntInt"){
+#        field(TPRO,"4")
+#        field(SCAN,".2 second")
+        field(TSE, "-2")
+        field(SCAN,"I/O Intr")
+        field(DTYP,"OPCUA")
+        field(DISS,"INVALID")
+        field(INP,"@2:DeviceSet.4:TEST.Resources.PLC.Programs.DB_RD.rdCntInt")
+}
+record(bi,"REC:stHeartbeat"){
+#        field(TPRO,"4")
+        field(TSE, "-2")
+#        field(SCAN,"1 second")
+        field(SCAN,"I/O Intr")
+        field(PINI,"YES")
+        field(DTYP,"OPCUA")
+        field(DISS,"INVALID")
+        field(ONAM,"eins")
+        field(ZNAM,"null")
+        field(INP,"@2:DeviceSet.4:TEST.Resources.PLC.Programs.DB_RD.stHeartbeat")
+}

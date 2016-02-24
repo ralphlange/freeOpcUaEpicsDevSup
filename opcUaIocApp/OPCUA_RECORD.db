@@ -1,0 +1,72 @@
+record(ai,"REC:rdPEW272REAL"){
+#        field(TPRO,"4")
+#        field(SCAN,".2 second")
+        field(TSE, "-2")
+        field(SCAN,"I/O Intr")
+        field(DTYP,"OPCUA")
+        field(DISS,"INVALID")
+        field(INP,"@3:OpcUaTest.DB_RD.rdPEW272REAL")
+}
+record(ai,"REC:rdCntInt"){
+#        field(TPRO,"4")
+#        field(SCAN,".2 second")
+        field(TSE, "-2")
+        field(SCAN,"I/O Intr")
+        field(DTYP,"OPCUA")
+        field(DISS,"INVALID")
+        field(INP,"@3:OpcUaTest.DB_RD.rdCntInt")
+}
+record(bi,"REC:stHeartbeat"){
+        field(TPRO,"4")
+        field(TSE, "-2")
+#        field(SCAN,"1 second")
+        field(SCAN,"I/O Intr")
+        field(PINI,"YES")
+        field(DTYP,"OPCUA")
+        field(DISS,"INVALID")
+        field(ONAM,"eins")
+        field(ZNAM,"null")
+        field(INP,"@3:OpcUaTest.DB_RD.stHeartbeat")
+}
+record(longin,"REC:rdPEW272INT"){
+        field(TPRO,"0")
+        field(TSE, "-2")
+        field(DTYP,"OPCUA")
+        field(SCAN,"1 second")
+#        field(SCAN,"I/O Intr")
+        field(DISS,"INVALID")
+        field(INP,"@3:OpcUaTest.DB_RD.rdPEW272INT")
+}
+record(longin,"REC:rdVar2"){
+        field(TPRO,"0")
+        field(DTYP,"OPCUA")
+        field(SCAN,"1 second")
+#        field(SCAN,"I/O Intr")
+        field(DISS,"INVALID")
+        field(INP,"@3:OpcUaTest.DB_RD.rdVarVal")
+}
+record(longin,"REC:rdVar1"){
+        field(TPRO,"0")
+        field(TSE, "-2")
+        field(DTYP,"OPCUA")
+        field(SCAN,"1 second")
+#        field(SCAN,"I/O Intr")
+        field(DISS,"INVALID")
+        field(INP,"@3:OpcUaTest.DB_RD.rdVarVal")
+}
+record(longin,"REC:rdVarVal"){
+        field(TPRO,"0")
+        field(TSE, "-2")
+        field(DTYP,"OPCUA")
+        field(SCAN,"1 second")
+#        field(SCAN,"I/O Intr")
+        field(DISS,"INVALID")
+        field(INP,"@3:OpcUaTest.DB_RD.rdVarVal")
+}
+record(longout,"REC:setVarVal"){
+        field(TPRO,"0")
+#        field(TSE, "-2")
+        field(DTYP,"OPCUA")
+        field(DISS,"INVALID")
+        field(OUT,"@3:OpcUaTest.DB_RD.setVarVal")
+}
